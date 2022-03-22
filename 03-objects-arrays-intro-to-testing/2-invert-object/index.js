@@ -15,6 +15,6 @@ export function invertObj(obj) {
     resObj[obj[key]] = key;
 
     }
-  
+
   return resObj;
 }
