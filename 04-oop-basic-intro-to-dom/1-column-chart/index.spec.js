@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import ColumnChart from './index.js';
 
 describe('oop-basic-intro-to-dom/column-chart', () => {
