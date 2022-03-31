@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 import NotificationMessage from './index.js';
 
 describe('dom-document-loading/notification', () => {
