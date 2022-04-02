@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 import SortableTable from './index.js';
 
 const data = [
