@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 import Tooltip from './index.js';
 
 describe('events-practice/tooltip', () => {

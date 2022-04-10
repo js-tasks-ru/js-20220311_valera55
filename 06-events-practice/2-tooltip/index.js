@@ -13,7 +13,7 @@ class Tooltip {
   onPointerOver = (event) => {
     const element = event.target.closest('[data-tooltip]');
     if(element){
-      this.render(element,dataset.tooltip);
+      this.render(element.dataset.tooltip);
       document.addEventListener('pointermove', this.onPointerMove);
     }
 
